@@ -7,6 +7,7 @@ target 'movs' do
 
   # Pods for movs
   pod 'CEPCombine', :git => 'https://github.com/IsaacDouglas/CEPCombine.git'
+  pod 'InvertedSwift', :git => 'https://github.com/IsaacDouglas/InvertedSwift.git'
 
   target 'movsTests' do
     inherit! :search_paths
